@@ -1,0 +1,3 @@
+print("Hi, I am Marvin, I am your personal Bot")
+users_name = input("Please enter your name so I may assist you.")
+print("Welcome " + users_name)
