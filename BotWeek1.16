@@ -1,0 +1,16 @@
+import math
+
+print("Hi, I am Marvin, I am your personal Bot")
+users_name = input("Please enter your name so I may assist you.")
+print("Welcome " + users_name)
+print("lets add some numbers")
+input1 = int(input("Number 1> "))
+input2 = int(input("Number 2> "))
+result = input1 + input2
+print("The sum of " + str(input1) + " and " + str(input2) + " is: " + str(result))
+print("Now, let's find the volume your current planet.")
+inputCirc = input(print("Assuming you're on a near spheroid, what is the circumfrance at the equatoral plane or prine meridian in kilomenters?"))
+inputCircumfrance = float(inputCirc) 
+radius = inputCircumfrance /(2 * math.pi)
+volumePlanet = (4 / 3) * math.pi * radius ** 3 
+print("The Plant has a volume of " + str(volumePlanet) + " cubic kilometers.")
